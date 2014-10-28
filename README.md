@@ -9,3 +9,6 @@ A guidence of ruby bindings for RabbitMQ--Bunny
 Working with RabbitMQ queues and consumers from Ruby with Bunny:
 
 http://rubybunny.info/articles/queues.html
+
+Monitoring Dashborad:
+http://localhost:15672/#/
