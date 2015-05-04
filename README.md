@@ -10,6 +10,6 @@ Working with RabbitMQ queues and consumers from Ruby with Bunny:
 
 http://rubybunny.info/articles/queues.html
 
-Monitoring Dashborad:
-
-http://localhost:15672/#/
+Monitoring Dashborad:  
+To enable RabbitMQ management plugin: https://www.rabbitmq.com/management.html  
+http://localhost:15672/#/  
