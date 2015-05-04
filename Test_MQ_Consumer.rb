@@ -32,7 +32,7 @@ begin
     abort()
   end
 
-  q.subscribe(:ack => true, :block => true) do |delivery_info, properties, body|
+  q.subscribe(:manual_ack => true, :block => true) do |delivery_info, properties, body|
     
     puts "'#{body}'"
     # imitate some work
