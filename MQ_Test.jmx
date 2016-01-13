@@ -401,12 +401,12 @@ log.info(&quot;Current Date: &quot; + vars.get(&quot;str_current_date&quot;));</
         <stringProp name="dbUrl">${DBConnString}</stringProp>
         <stringProp name="driver">oracle.jdbc.driver.OracleDriver</stringProp>
         <boolProp name="keepAlive">true</boolProp>
-        <stringProp name="password">dstub</stringProp>
+        <stringProp name="password">abcd123</stringProp>
         <stringProp name="poolMax">10</stringProp>
         <stringProp name="timeout">100000</stringProp>
         <stringProp name="transactionIsolation">DEFAULT</stringProp>
         <stringProp name="trimInterval">600000</stringProp>
-        <stringProp name="username">stub</stringProp>
+        <stringProp name="username">testuser123</stringProp>
       </JDBCDataSource>
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -447,9 +447,9 @@ log.info(&quot;Current Date: &quot; + vars.get(&quot;str_current_date&quot;));</
           </elementProp>
           <elementProp name="DBConnString" elementType="Argument">
             <stringProp name="Argument.name">DBConnString</stringProp>
-            <stringProp name="Argument.value">jdbc:oracle:thin:@srwd00dbs022.stubcorp.dev:1521:D22PE071</stringProp>
+            <stringProp name="Argument.value">jdbc:oracle:thin:@somehost:1521:D22PE071</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.desc">jdbc:oracle:thin:@srwd00dbs019.stubcorp.dev:1521:D19QE14</stringProp>
+            <stringProp name="Argument.desc">jdbc:oracle:thin:@somehost:1521:D19QE14</stringProp>
           </elementProp>
           <elementProp name="Queue_Name" elementType="Argument">
             <stringProp name="Argument.name">Queue_Name</stringProp>
